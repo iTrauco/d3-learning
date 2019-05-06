@@ -1,0 +1,42 @@
+/* paul irish border box styling */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color:white;
+}
+
+/* //these over ride settings in d3, interesting... */
+/* rect {
+  fill: yellow;
+  stroke: red;
+} */
+
+/* //svg works here for backgorund color, */
+/* svg {
+  background-color: #445566
+} */
+
+circle {
+  transition-duration: 500ms;
+}
+body {
+  transition-duration: 4s;
+
+}
+.svg-container, .mysvg {
+  /* background-color: #003300 */
+}
+
+.trytwo {
+  top:400
+}
